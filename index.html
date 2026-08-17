@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APEX TRAINING — Entrenamiento Personal de Élite</title>
+  <meta name="description" content="Transforma tu cuerpo y mente con un entrenamiento personalizado de alto rendimiento. Más de 500 clientes transformados.">
+
+  <!-- Bootstrap 5.3.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================================================
+       WHATSAPP FLOAT
+  ================================================= -->
+  <a href="https://wa.me/5491112345678?text=Hola!%20Vi%20tu%20página%20y%20me%20interesa%20comenzar%20un%20plan%20de%20entrenamiento."
+     class="wa-float"
+     target="_blank"
+     rel="noopener"
+     aria-label="Contactar por WhatsApp">
+    <span class="wa-pulse-ring"></span>
+    <span class="wa-pulse-ring"></span>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="wa-tip">¡Hablemos!</span>
+  </a>
+
+  <!-- ================================================
+       NAVBAR
+  ================================================= -->
+  <nav class="navbar-fit" id="mainNav" aria-label="Navegación principal">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between w-100">
+
+        <a href="#inicio" class="nav-brand" aria-label="APEX TRAINING inicio">
+          APEX<span class="dot">.</span>
+        </a>
+
+        <!-- Desktop nav -->
+        <ul class="d-none d-lg-flex list-unstyled mb-0 align-items-center gap-1">
+          <li><a href="#sobre"      class="nav-link-fit">Sobre mí</a></li>
+          <li><a href="#servicios"  class="nav-link-fit">Servicios</a></li>
+          <li><a href="#metodo"     class="nav-link-fit">Método</a></li>
+          <li><a href="#resultados" class="nav-link-fit">Resultados</a></li>
+          <li><a href="#precios"    class="nav-link-fit">Planes</a></li>
+          <li><a href="#contacto"   class="nav-link-fit">Contacto</a></li>
+        </ul>
+
+        <div class="d-none d-lg-flex align-items-center gap-3">
+          <a href="https://wa.me/5491112345678" target="_blank" rel="noopener"
+             class="btn-nav-cta" aria-label="Contactar por WhatsApp">
+            <i class="bi bi-whatsapp me-1" aria-hidden="true"></i>WhatsApp
+          </a>
+        </div>
+
+        <!-- Mobile toggle -->
+        <button class="nav-toggler d-lg-none"
+                data-bs-toggle="collapse"
+                data-bs-target="#mobileMenu"
+                aria-controls="mobileMenu"
+                aria-expanded="false"
+                aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="collapse" id="mobileMenu">
+        <ul class="list-unstyled pt-3 pb-2">
+          <li><a href="#sobre"      class="nav-link-fit d-block py-2">Sobre mí</a></li>
+          <li><a href="#servicios"  class="nav-link-fit d-block py-2">Servicios</a></li>
+          <li><a href="#metodo"     class="nav-link-fit d-block py-2">Método</a></li>
+          <li><a href="#resultados" class="nav-link-fit d-block py-2">Resultados</a></li>
+          <li><a href="#precios"    class="nav-link-fit d-block py-2">Planes</a></li>
+          <li><a href="#contacto"   class="nav-link-fit d-block py-2">Contacto</a></li>
+          <li class="pt-2">
+            <a href="https://wa.me/5491112345678" target="_blank" rel="noopener"
+               class="btn-nav-cta d-inline-block">
+              <i class="bi bi-whatsapp me-1" aria-hidden="true"></i>WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================================================
+       HERO
+  ================================================= -->
+  <section id="inicio" class="hero-section">
+    <div class="hero-bg" id="heroBg" role="img" aria-label="Entrenador personal en acción"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-stripe" aria-hidden="true"></div>
+
+    <!-- Decorative rings -->
+    <div class="hero-ring d-none d-xl-block" aria-hidden="true">
+      <div class="hero-ring-c1"></div>
+      <div class="hero-ring-c2"></div>
+      <div class="hero-ring-c3"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-lg-8 col-xl-7">
+
+          <p class="hero-eyebrow">Entrenamiento Personal de Élite</p>
+
+          <h1 class="hero-headline">
+            TU MEJOR<br>
+            VERSIÓN<br>
+            <em>EMPIEZA HOY</em>
+          </h1>
+
+          <p class="hero-sub">
+            Programas diseñados a medida para superar tus límites, alcanzar resultados reales y mantenerlos. Sin excusas. Sin atajos.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#contacto" class="btn-primary-fit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+              </svg>
+              Empezar ahora
+            </a>
+            <a href="#resultados" class="btn-ghost-fit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="10 8 16 12 10 16 10 8"/>
+              </svg>
+              Ver resultados
+            </a>
+          </div>
+
+          <!-- Social proof -->
+          <div class="hero-social-proof">
+            <div class="hero-avatars" aria-hidden="true">
+              <img src="https://picsum.photos/seed/av1/48/48" alt="">
+              <img src="https://picsum.photos/seed/av2/48/48" alt="">
+              <img src="https://picsum.photos/seed/av3/48/48" alt="">
+              <img src="https://picsum.photos/seed/av4/48/48" alt="">
+            </div>
+            <p class="hero-social-text mb-0">
+              Más de <strong>500 clientes</strong> transformados este año
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-mouse"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ================================================
+       STATS STRIP
+  ================================================= -->
+  <section aria-label="Estadísticas" id="stats">
+    <div class="stats-strip">
+      <div class="stats-inner">
+        <div class="stat-item">
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-label">Clientes activos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="8">0</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="97">0<span class="stat-suffix">%</span></span>
+          <span class="stat-label">Tasa de éxito</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-label">Certificaciones</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       MARQUEE — Certifications
+  ================================================= -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <!-- set 1 -->
+      <span class="marquee-item">NSCA Certified</span>
+      <span class="marquee-item">CrossFit Level 2</span>
+      <span class="marquee-item">Nutrición Deportiva</span>
+      <span class="marquee-item">Functional Training</span>
+      <span class="marquee-item">HIIT Specialist</span>
+      <span class="marquee-item">Fisiología del Ejercicio</span>
+      <span class="marquee-item">Strength & Conditioning</span>
+      <span class="marquee-item">Mobility & Recovery</span>
+      <span class="marquee-item">TRX Certified</span>
+      <!-- set 2 (mirror) -->
+      <span class="marquee-item">NSCA Certified</span>
+      <span class="marquee-item">CrossFit Level 2</span>
+      <span class="marquee-item">Nutrición Deportiva</span>
+      <span class="marquee-item">Functional Training</span>
+      <span class="marquee-item">HIIT Specialist</span>
+      <span class="marquee-item">Fisiología del Ejercicio</span>
+      <span class="marquee-item">Strength & Conditioning</span>
+      <span class="marquee-item">Mobility & Recovery</span>
+      <span class="marquee-item">TRX Certified</span>
+    </div>
+  </div>
+
+  <!-- ================================================
+       SOBRE MÍ
+  ================================================= -->
+  <section id="sobre" class="about-section section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- Image column -->
+        <div class="col-lg-5 text-center text-lg-start reveal-l">
+          <div class="trainer-frame d-inline-block position-relative">
+            <img src="https://picsum.photos/seed/trainer-pro/480/640"
+                 alt="Lucas Ferreyra, entrenador personal"
+                 class="trainer-photo"
+                 loading="lazy"
+                 width="480" height="640">
+            <div class="trainer-badge" aria-label="8 años de experiencia">
+              <strong>8+</strong>
+              <span>Años<br>Experience</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="col-lg-7 reveal-r">
+          <span class="section-label">Sobre el entrenador</span>
+          <h2 class="section-title">
+            LUCAS<br><span class="text-accent">FERREYRA</span>
+          </h2>
+          <p class="section-sub mb-4">
+            Entrenador personal certificado con más de 8 años de experiencia trabajando con atletas de alto rendimiento, profesionales y personas que buscan un cambio real en su vida. Mi método combina ciencia, disciplina y estrategia adaptada a cada individuo.
+          </p>
+          <p class="text-muted-c mb-5" style="font-size:.93rem; line-height:1.8;">
+            Antes de entrenar a otros, fui deportista de competición. Esa experiencia me enseñó que los resultados duraderos no vienen de entrenar más duro, sino de entrenar más inteligente. Cada programa que diseño está respaldado por evidencia científica y ajustado a tu genética, estilo de vida y objetivos.
+          </p>
+
+          <!-- Credentials -->
+          <div class="mb-5">
+            <div class="credential-row">
+              <div class="cred-icon"><i class="bi bi-award" aria-hidden="true"></i></div>
+              <div class="cred-text">
+                <strong>NSCA-CSCS — Certified Strength & Conditioning Specialist</strong>
+                <span>National Strength and Conditioning Association · 2018</span>
+              </div>
+            </div>
+            <div class="credential-row">
+              <div class="cred-icon"><i class="bi bi-trophy" aria-hidden="true"></i></div>
+              <div class="cred-text">
+                <strong>CrossFit Level 2 Trainer</strong>
+                <span>CrossFit Inc. · 2019</span>
+              </div>
+            </div>
+            <div class="credential-row">
+              <div class="cred-icon"><i class="bi bi-heart-pulse" aria-hidden="true"></i></div>
+              <div class="cred-text">
+                <strong>Especialista en Nutrición Deportiva</strong>
+                <span>ISSN — International Society of Sports Nutrition · 2020</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill bars -->
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-label">
+              <span>Fuerza & Potencia</span><span>96%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="96"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-label">
+              <span>Pérdida de Grasa</span><span>94%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="94"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-label">
+              <span>Movilidad & Recuperación</span><span>90%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-label">
+              <span>Nutrición Deportiva</span><span>88%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="88"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SERVICIOS
+  ================================================= -->
+  <section id="servicios" class="services-section section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Lo que ofrezco</span>
+        <h2 class="section-title">PROGRAMAS<br><span class="text-accent">DISEÑADOS</span> PARA VOS</h2>
+        <p class="section-sub mx-auto">
+          Cada plan es único. Evaluamos tu punto de partida, definimos metas claras y construimos el camino más eficiente hacia ellas.
+        </p>
+      </div>
+
+      <div class="row g-4 stagger">
+
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <span class="service-chip">Ideal para comenzar</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M17 11h3a2 2 0 000-4h-3M7 11H4a2 2 0 010-4h3M7 11v6M17 11v6M12 3v18M9 21h6"/></svg>
+            </div>
+            <h3 class="service-title">ENTRENAMIENTO<br>PRESENCIAL</h3>
+            <p class="service-desc">Sesiones 1 a 1 en el gimnasio o en tu domicilio. Supervisión total, técnica impecable y ajustes en tiempo real.</p>
+            <ul class="service-features">
+              <li class="service-feature">Evaluación física completa</li>
+              <li class="service-feature">Plan de entrenamiento semanal</li>
+              <li class="service-feature">Seguimiento de progreso</li>
+              <li class="service-feature">Ajustes de técnica</li>
+              <li class="service-feature">Guía nutricional básica</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2 — FEATURED -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card featured">
+            <span class="service-chip">Más popular</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="service-title">PLAN<br>INTEGRAL</h3>
+            <p class="service-desc">Entrenamiento + nutrición + seguimiento diario. El paquete completo para transformaciones reales y sostenibles.</p>
+            <ul class="service-features">
+              <li class="service-feature">Todo lo del plan Presencial</li>
+              <li class="service-feature">Plan nutricional personalizado</li>
+              <li class="service-feature">Check-in semanal por video</li>
+              <li class="service-feature">Soporte vía WhatsApp (7 días)</li>
+              <li class="service-feature">Acceso a biblioteca de videos</li>
+              <li class="service-feature">Ajustes mensuales de plan</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <span class="service-chip">Desde cualquier lugar</span>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="service-title">COACHING<br>ONLINE</h3>
+            <p class="service-desc">Toda la experiencia del entrenamiento presencial en formato digital. Entrenás donde y cuando quieras con soporte constante.</p>
+            <ul class="service-features">
+              <li class="service-feature">Plan de entrenamiento en app</li>
+              <li class="service-feature">Videos demostrativos HD</li>
+              <li class="service-feature">Análisis de técnica por video</li>
+              <li class="service-feature">Seguimiento de métricas</li>
+              <li class="service-feature">Soporte por chat diario</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       METODOLOGÍA
+  ================================================= -->
+  <section id="metodo" class="method-section section-pad">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+
+        <!-- Steps column -->
+        <div class="col-lg-6">
+          <span class="section-label reveal">Mi método</span>
+          <h2 class="section-title mb-4 reveal">EL PROCESO<br><span class="text-accent">QUE FUNCIONA</span></h2>
+
+          <div class="method-timeline">
+
+            <div class="method-step reveal">
+              <div class="step-num">01</div>
+              <div class="step-body">
+                <h4>DIAGNÓSTICO INICIAL</h4>
+                <p>Evaluación de composición corporal, historial de entrenamiento, objetivos y estilo de vida. Sin esta base, cualquier plan es una suposición.</p>
+              </div>
+            </div>
+
+            <div class="method-step reveal">
+              <div class="step-num">02</div>
+              <div class="step-body">
+                <h4>DISEÑO DEL PLAN</h4>
+                <p>Construimos tu programa personalizado: frecuencia, intensidad, volumen y periodización estratégica orientada a tus metas específicas.</p>
+              </div>
+            </div>
+
+            <div class="method-step reveal">
+              <div class="step-num">03</div>
+              <div class="step-body">
+                <h4>EJECUCIÓN Y SEGUIMIENTO</h4>
+                <p>Entrenamos juntos o de forma remota con supervisión constante. Cada sesión es registrada y analizada para optimizar resultados.</p>
+              </div>
+            </div>
+
+            <div class="method-step reveal">
+              <div class="step-num">04</div>
+              <div class="step-body">
+                <h4>AJUSTE Y PROGRESIÓN</h4>
+                <p>El cuerpo se adapta. Revisamos y actualizamos el plan mensualmente para garantizar progresión continua sin estancamientos.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Image column -->
+        <div class="col-lg-6 reveal-r">
+          <img src="https://picsum.photos/seed/method-train/600/750"
+               alt="Entrenamiento en sesión"
+               class="method-img"
+               loading="lazy"
+               width="600" height="750">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       RESULTADOS
+  ================================================= -->
+  <section id="resultados" class="results-section section-pad">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Historias reales</span>
+        <h2 class="section-title">TRANSFORMACIONES<br><span class="text-accent">QUE HABLAN</span> SOLAS</h2>
+        <p class="section-sub mx-auto">
+          Personas comunes con resultados extraordinarios. La diferencia está en el método y en la consistencia.
+        </p>
+      </div>
+
+      <div class="row g-3 stagger">
+        <div class="col-6 col-md-3 reveal">
+          <div class="result-card" tabindex="0" role="img" aria-label="Transformación de Martín: perdió 18 kg en 5 meses">
+            <img src="https://picsum.photos/seed/result-a/400/530" alt="" loading="lazy" width="400" height="530">
+            <div class="result-overlay">
+              <span class="result-chip">-18 kg</span>
+              <p class="result-name">Martín R.</p>
+              <p class="result-detail">5 meses · Plan Integral</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 reveal" style="margin-top:2rem;">
+          <div class="result-card" tabindex="0" role="img" aria-label="Transformación de Sofía: ganó masa muscular en 6 meses">
+            <img src="https://picsum.photos/seed/result-b/400/530" alt="" loading="lazy" width="400" height="530">
+            <div class="result-overlay">
+              <span class="result-chip">+8 kg músculo</span>
+              <p class="result-name">Sofía M.</p>
+              <p class="result-detail">6 meses · Presencial</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 reveal">
+          <div class="result-card" tabindex="0" role="img" aria-label="Transformación de Diego: perdió 22 kg en 7 meses">
+            <img src="https://picsum.photos/seed/result-c/400/530" alt="" loading="lazy" width="400" height="530">
+            <div class="result-overlay">
+              <span class="result-chip">-22 kg</span>
+              <p class="result-name">Diego V.</p>
+              <p class="result-detail">7 meses · Plan Integral</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 reveal" style="margin-top:2rem;">
+          <div class="result-card" tabindex="0" role="img" aria-label="Transformación de Carolina: bajó 15% de grasa corporal">
+            <img src="https://picsum.photos/seed/result-d/400/530" alt="" loading="lazy" width="400" height="530">
+            <div class="result-overlay">
+              <span class="result-chip">-15% grasa</span>
+              <p class="result-name">Carolina F.</p>
+              <p class="result-detail">4 meses · Online</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 reveal">
+        <a href="#contacto" class="btn-ghost-fit" style="display:inline-flex;">
+          Quiero ser el próximo
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="margin-left:8px;">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       CTA BANNER
+  ================================================= -->
+  <section class="cta-banner" aria-labelledby="ctaBannerTitle">
+    <div class="container position-relative">
+      <p class="section-label reveal" style="color:var(--bg); border-color:rgba(0,0,0,0.2); margin-bottom:1.2rem;">
+        Sin compromiso inicial
+      </p>
+      <h2 class="cta-headline reveal" id="ctaBannerTitle">
+        PRIMERA SESIÓN<br>GRATUITA
+      </h2>
+      <p class="cta-sub reveal">
+        Probá el método sin riesgo. Una sesión de evaluación y diagnóstico completa, sin costo.
+      </p>
+      <a href="#contacto" class="btn-cta-dark reveal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+        </svg>
+        Reservar sesión gratis
+      </a>
+    </div>
+  </section>
+
+  <!-- ================================================
+       TESTIMONIALS
+  ================================================= -->
+  <section class="testi-section section-pad" aria-labelledby="testiTitle">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Lo que dicen</span>
+        <h2 class="section-title" id="testiTitle">
+          OPINIONES DE<br><span class="text-accent">CLIENTES REALES</span>
+        </h2>
+      </div>
+
+      <div class="row g-4 stagger">
+
+        <div class="col-md-4 reveal">
+          <div class="testi-card">
+            <div class="testi-stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote class="testi-quote">
+              "Probé varios entrenadores antes, pero Lucas es diferente. No te da un plan genérico: entiende tu cuerpo, tu historia y te lleva al límite de forma inteligente. Transformé mi cuerpo y mi mentalidad."
+            </blockquote>
+            <div class="testi-author">
+              <img src="https://picsum.photos/seed/testi-1/48/48"
+                   alt="Foto de Martín Rodríguez"
+                   class="testi-avatar"
+                   loading="lazy" width="48" height="48">
+              <div>
+                <span class="testi-name">Martín Rodríguez</span>
+                <span class="testi-role">Empresario · -18 kg en 5 meses</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="testi-card">
+            <div class="testi-stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote class="testi-quote">
+              "Empecé con el coaching online por el trabajo y fue increíble. El soporte constante, los videos, el seguimiento... todo profesional. Nunca me sentí sola en el proceso. Resultados en 4 meses."
+            </blockquote>
+            <div class="testi-author">
+              <img src="https://picsum.photos/seed/testi-2/48/48"
+                   alt="Foto de Carolina Fernández"
+                   class="testi-avatar"
+                   loading="lazy" width="48" height="48">
+              <div>
+                <span class="testi-name">Carolina Fernández</span>
+                <span class="testi-role">Diseñadora · -15% grasa corporal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="testi-card">
+            <div class="testi-stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote class="testi-quote">
+              "Tenía una lesión de rodilla que me impedía entrenar. Lucas diseñó un programa completo respetando mis limitaciones y de a poco fui mejorando. Hoy estoy más fuerte que antes de lesionarme."
+            </blockquote>
+            <div class="testi-author">
+              <img src="https://picsum.photos/seed/testi-3/48/48"
+                   alt="Foto de Diego Vázquez"
+                   class="testi-avatar"
+                   loading="lazy" width="48" height="48">
+              <div>
+                <span class="testi-name">Diego Vázquez</span>
+                <span class="testi-role">Ingeniero · Rehabilitación + fuerza</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       PRICING
+  ================================================= -->
+  <section id="precios" class="pricing-section section-pad" aria-labelledby="pricingTitle">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Inversión</span>
+        <h2 class="section-title" id="pricingTitle">
+          ELEGÍ TU<br><span class="text-accent">PLAN</span>
+        </h2>
+        <p class="section-sub mx-auto">
+          Todos los planes incluyen evaluación inicial gratuita. Sin contratos. Sin letra chica.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-start stagger">
+
+        <!-- Starter -->
+        <div class="col-md-4 reveal">
+          <div class="price-card">
+            <p class="price-plan">Starter</p>
+            <div class="price-amt">
+              <sup>$</sup>35.000<span class="per">/mes</span>
+            </div>
+            <p class="price-desc">Perfecto para quienes quieren un primer acercamiento al entrenamiento profesional.</p>
+            <hr class="price-divider">
+            <ul class="price-features">
+              <li class="price-feat">8 sesiones presenciales</li>
+              <li class="price-feat">Evaluación física inicial</li>
+              <li class="price-feat">Plan de entrenamiento mensual</li>
+              <li class="price-feat">Seguimiento de progreso</li>
+              <li class="price-feat off">Plan nutricional</li>
+              <li class="price-feat off">Soporte WhatsApp</li>
+              <li class="price-feat off">Check-in semanal</li>
+            </ul>
+            <button class="btn-plan-outline" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">
+              Empezar
+            </button>
+          </div>
+        </div>
+
+        <!-- Pro — Popular -->
+        <div class="col-md-4 reveal">
+          <div class="price-card popular">
+            <div class="popular-tag">Más popular</div>
+            <p class="price-plan">Pro</p>
+            <div class="price-amt">
+              <sup>$</sup>58.000<span class="per">/mes</span>
+            </div>
+            <p class="price-desc">La experiencia completa: entrenamiento, nutrición y seguimiento diario.</p>
+            <hr class="price-divider">
+            <ul class="price-features">
+              <li class="price-feat">12 sesiones presenciales</li>
+              <li class="price-feat">Evaluación física completa</li>
+              <li class="price-feat">Plan de entrenamiento mensual</li>
+              <li class="price-feat">Plan nutricional personalizado</li>
+              <li class="price-feat">Soporte WhatsApp (7 días)</li>
+              <li class="price-feat">Check-in semanal por video</li>
+              <li class="price-feat off">Acceso a plataforma online</li>
+            </ul>
+            <button class="btn-plan-fill" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">
+              Empezar — el más elegido
+            </button>
+          </div>
+        </div>
+
+        <!-- Elite -->
+        <div class="col-md-4 reveal">
+          <div class="price-card">
+            <p class="price-plan">Elite</p>
+            <div class="price-amt">
+              <sup>$</sup>85.000<span class="per">/mes</span>
+            </div>
+            <p class="price-desc">Para quienes exigen resultados excepcionales y máxima atención personalizada.</p>
+            <hr class="price-divider">
+            <ul class="price-features">
+              <li class="price-feat">Sesiones ilimitadas</li>
+              <li class="price-feat">Evaluación física mensual</li>
+              <li class="price-feat">Plan 100% adaptativo</li>
+              <li class="price-feat">Nutrición + suplementación</li>
+              <li class="price-feat">Soporte 24/7 directo</li>
+              <li class="price-feat">Check-in y ajuste semanal</li>
+              <li class="price-feat">Acceso plataforma + videoteca</li>
+            </ul>
+            <button class="btn-plan-outline" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">
+              Empezar
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="text-center text-muted-c mt-4 reveal" style="font-size:.88rem;">
+        <i class="bi bi-shield-check text-accent me-2" aria-hidden="true"></i>
+        Todos los planes incluyen <strong style="color:var(--text)">primera sesión de evaluación gratis</strong>. Consultá por opciones de pago en cuotas.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================================================
+       CONTACT
+  ================================================= -->
+  <section id="contacto" class="contact-section section-pad" aria-labelledby="contactTitle">
+    <div class="container">
+      <div class="row g-5">
+
+        <!-- Left: info + WA -->
+        <div class="col-lg-5 reveal-l">
+          <span class="section-label">Contacto</span>
+          <h2 class="section-title" id="contactTitle">
+            HABLEMOS<br>SIN<br><span class="text-accent">COMPROMISO</span>
+          </h2>
+          <p class="section-sub mb-5">
+            Completá el formulario o escribime directamente por WhatsApp. Respondo en menos de 2 horas.
+          </p>
+
+          <div class="contact-info-card">
+            <div class="ci-icon"><i class="bi bi-geo-alt" aria-hidden="true"></i></div>
+            <div class="ci-body">
+              <strong>Ubicación</strong>
+              <span>Buenos Aires, Argentina · También online</span>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="ci-icon"><i class="bi bi-clock" aria-hidden="true"></i></div>
+            <div class="ci-body">
+              <strong>Horarios de atención</strong>
+              <span>Lun–Sáb · 06:00 a 21:00 hs</span>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="ci-icon"><i class="bi bi-instagram" aria-hidden="true"></i></div>
+            <div class="ci-body">
+              <strong>Instagram</strong>
+              <span>@lucas.ferreyra.fit</span>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5491112345678?text=Hola%20Lucas!%20Vi%20tu%20página%20y%20me%20interesa%20comenzar.%20Quisiera%20agendar%20una%20sesión%20de%20evaluación."
+             class="wa-big-btn"
+             target="_blank"
+             rel="noopener"
+             aria-label="Enviar mensaje por WhatsApp">
+            <svg viewBox="0 0 24 24" fill="white" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <div class="wa-btn-text">
+              <strong>Escribime por WhatsApp</strong>
+              <span>Respondo en menos de 2 horas</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Right: form -->
+        <div class="col-lg-7 reveal-r">
+          <div class="contact-form-box">
+            <h3 class="mb-4" style="font-size:1.6rem;">AGENDA TU <span class="text-accent">SESIÓN GRATIS</span></h3>
+
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+
+                <div class="col-sm-6">
+                  <label for="fNombre" class="form-lbl">Nombre <span aria-hidden="true" style="color:var(--accent2)">*</span></label>
+                  <input type="text" id="fNombre" name="nombre" class="form-ctrl" placeholder="Tu nombre" required autocomplete="given-name">
+                  <span class="form-err" id="errNombre" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="fApellido" class="form-lbl">Apellido <span aria-hidden="true" style="color:var(--accent2)">*</span></label>
+                  <input type="text" id="fApellido" name="apellido" class="form-ctrl" placeholder="Tu apellido" required autocomplete="family-name">
+                  <span class="form-err" id="errApellido" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="fEmail" class="form-lbl">Email <span aria-hidden="true" style="color:var(--accent2)">*</span></label>
+                  <input type="email" id="fEmail" name="email" class="form-ctrl" placeholder="tu@email.com" required autocomplete="email">
+                  <span class="form-err" id="errEmail" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="fTel" class="form-lbl">Teléfono</label>
+                  <input type="tel" id="fTel" name="telefono" class="form-ctrl" placeholder="+54 9 11 xxxx xxxx" autocomplete="tel">
+                </div>
+
+                <div class="col-12">
+                  <label for="fObjetivo" class="form-lbl">¿Cuál es tu objetivo principal? <span aria-hidden="true" style="color:var(--accent2)">*</span></label>
+                  <select id="fObjetivo" name="objetivo" class="form-ctrl" required>
+                    <option value="" disabled selected>Seleccioná una opción</option>
+                    <option value="perdida-peso">Pérdida de grasa / peso</option>
+                    <option value="masa-muscular">Ganar masa muscular</option>
+                    <option value="rendimiento">Mejorar rendimiento deportivo</option>
+                    <option value="rehabilitacion">Rehabilitación / lesiones</option>
+                    <option value="salud">Salud y bienestar general</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                  <span class="form-err" id="errObjetivo" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="col-12">
+                  <label for="fMensaje" class="form-lbl">Contame un poco sobre vos</label>
+                  <textarea id="fMensaje" name="mensaje" class="form-ctrl" rows="4"
+                    placeholder="¿Tenés alguna lesión? ¿Cuánto tiempo disponés? ¿Entrenaste antes?..."></textarea>
+                </div>
+
+                <div class="col-12 mt-2">
+                  <button type="submit" class="btn-submit" id="submitBtn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                      <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                    </svg>
+                    Enviar consulta
+                  </button>
+                </div>
+
+                <div class="col-12">
+                  <div id="formMsg" role="alert" aria-live="polite" style="display:none; padding:14px 16px; border-radius:var(--radius-sm); font-size:.9rem; font-family:var(--ff-head); letter-spacing:.06em; text-transform:uppercase;"></div>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       FOOTER
+  ================================================= -->
+  <footer class="footer-fit" aria-label="Pie de página">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-lg-4">
+          <p class="footer-brand-text">APEX<span>.</span></p>
+          <p class="footer-tagline">Entrenamiento personal de élite en Buenos Aires y online. Resultados reales, método científico.</p>
+          <div class="d-flex gap-2 mt-3">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="bi bi-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="bi bi-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <i class="bi bi-youtube" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/5491112345678" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <p class="footer-head">Navegación</p>
+          <a href="#inicio"     class="footer-lnk">Inicio</a>
+          <a href="#sobre"      class="footer-lnk">Sobre mí</a>
+          <a href="#servicios"  class="footer-lnk">Servicios</a>
+          <a href="#metodo"     class="footer-lnk">Método</a>
+          <a href="#resultados" class="footer-lnk">Resultados</a>
+          <a href="#precios"    class="footer-lnk">Planes</a>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <p class="footer-head">Servicios</p>
+          <a href="#servicios" class="footer-lnk">Entrenamiento Presencial</a>
+          <a href="#servicios" class="footer-lnk">Plan Integral</a>
+          <a href="#servicios" class="footer-lnk">Coaching Online</a>
+          <a href="#precios"   class="footer-lnk">Ver planes y precios</a>
+        </div>
+
+        <div class="col-lg-3">
+          <p class="footer-head">Contacto</p>
+          <p class="footer-lnk" style="cursor:default;">Buenos Aires, Argentina</p>
+          <p class="footer-lnk" style="cursor:default;">Lun–Sáb · 06:00–21:00</p>
+          <a href="https://wa.me/5491112345678" class="footer-lnk" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp me-1 text-accent" aria-hidden="true"></i>
+            +54 9 11 1234-5678
+          </a>
+          <a href="mailto:lucas@apextraining.com.ar" class="footer-lnk">lucas@apextraining.com.ar</a>
+        </div>
+
+      </div>
+
+      <hr class="footer-hr">
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+        <p class="footer-copy mb-0">© 2026 APEX Training. Todos los derechos reservados.</p>
+        <p class="footer-copy mb-0">
+          Diseñado con <span class="text-accent">♥</span> para resultados reales.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    /* =============================================
+       NAVBAR — scroll class + active link
+    ============================================= */
+    const nav = document.getElementById('mainNav');
+    const navLinks = document.querySelectorAll('.nav-link-fit');
+    const sections = document.querySelectorAll('section[id], div[id="stats"]');
+
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+      updateActiveLink();
+    }, { passive: true });
+
+    function updateActiveLink() {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      navLinks.forEach(l => {
+        const href = l.getAttribute('href').replace('#', '');
+        l.classList.toggle('active', href === current);
+      });
+    }
+
+    /* Close mobile menu on link click */
+    document.querySelectorAll('#mobileMenu .nav-link-fit').forEach(l => {
+      l.addEventListener('click', () => {
+        const bsCollapse = bootstrap.Collapse.getInstance(document.getElementById('mobileMenu'));
+        if (bsCollapse) bsCollapse.hide();
+      });
+    });
+
+    /* =============================================
+       SCROLL REVEAL — IntersectionObserver
+    ============================================= */
+    const revealEls = document.querySelectorAll('.reveal, .reveal-l, .reveal-r');
+
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          revealObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => revealObs.observe(el));
+
+    /* =============================================
+       COUNTER ANIMATION
+    ============================================= */
+    const counters = document.querySelectorAll('.stat-number[data-target]');
+
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        const el = e.target;
+        const target = parseInt(el.dataset.target, 10);
+        const suffix = el.querySelector('.stat-suffix');
+        const suffixHtml = suffix ? suffix.outerHTML : '';
+        const duration = 1400;
+        const step = Math.ceil(duration / target);
+        let current = 0;
+
+        const timer = setInterval(() => {
+          current += Math.max(1, Math.floor(target / 60));
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+          el.textContent = current.toLocaleString('es-AR');
+          if (suffixHtml) el.insertAdjacentHTML('beforeend', suffixHtml);
+        }, step);
+
+        counterObs.unobserve(el);
+      });
+    }, { threshold: 0.4 });
+
+    counters.forEach(c => counterObs.observe(c));
+
+    /* =============================================
+       SKILL BARS — animate on reveal
+    ============================================= */
+    const skillBars = document.querySelectorAll('.skill-bar-fill');
+
+    const skillObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.width = e.target.dataset.width + '%';
+          skillObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    skillBars.forEach(b => skillObs.observe(b));
+
+    /* =============================================
+       CONTACT FORM — validation + submit feedback
+    ============================================= */
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMsg = document.getElementById('formMsg');
+
+    function showFieldError(id, msg) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.textContent = msg;
+        el.style.cssText = 'display:block; font-size:.78rem; color:#ff4500; margin-top:4px;';
+      }
+    }
+    function clearErrors() {
+      document.querySelectorAll('.form-err').forEach(e => { e.textContent = ''; e.style.display = 'none'; });
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      clearErrors();
+
+      let valid = true;
+      const nombre = form.nombre.value.trim();
+      const apellido = form.apellido.value.trim();
+      const email = form.email.value.trim();
+      const objetivo = form.objetivo.value;
+
+      if (!nombre) { showFieldError('errNombre', 'Ingresá tu nombre'); valid = false; }
+      if (!apellido) { showFieldError('errApellido', 'Ingresá tu apellido'); valid = false; }
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        showFieldError('errEmail', 'Ingresá un email válido'); valid = false;
+      }
+      if (!objetivo) { showFieldError('errObjetivo', 'Seleccioná tu objetivo'); valid = false; }
+
+      if (!valid) {
+        const firstErr = form.querySelector('[aria-live="polite"]:not(:empty)');
+        if (firstErr) firstErr.previousElementSibling?.focus();
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="animation:rotateSlow 1s linear infinite;">
+          <circle cx="12" cy="12" r="10" stroke-dasharray="30 60"/>
+        </svg>
+        Enviando...`;
+
+      await new Promise(r => setTimeout(r, 1600));
+
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+        Enviar consulta`;
+
+      formMsg.style.display = 'block';
+      formMsg.style.background = 'rgba(200,255,0,0.08)';
+      formMsg.style.border = '1px solid rgba(200,255,0,0.3)';
+      formMsg.style.color = 'var(--accent)';
+      formMsg.textContent = '✓ Mensaje enviado — te contactamos en menos de 2 horas.';
+      form.reset();
+
+      setTimeout(() => { formMsg.style.display = 'none'; }, 6000);
+    });
+  </script>
+
+</body>
+</html>
